@@ -47,3 +47,10 @@ Siempre estoy buscando formas de mejorar y aprender nuevas cosas.
 
 <img src="https://streak-stats.demolab.com?user=joseloc16&theme=dark&hide_border=true&border_radius=5" alt="GitHub Streak"/>
 
+## 🐍 Cyber Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joseloc16/joseloc16/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joseloc16/joseloc16/output/github-snake.svg" />
+  <img alt="Cyberpunk Snake" src="https://raw.githubusercontent.com/joseloc16/joseloc16/output/github-snake.svg" />
+</picture>
