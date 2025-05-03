@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -12,13 +12,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate GitHub Contribution Snake SVG
+      - name: Generate GitHub Contribution Snake SVG (Cyberpunk Theme)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: joseloc16
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=%23ff00ff&color_dots=%2300ffff,%23ff00ff,%238a2be2,%2339ff14
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%23ff00ff&color_dots=%2300ffff,%23ff00ff,%238a2be2,%2339ff14
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.1.3
